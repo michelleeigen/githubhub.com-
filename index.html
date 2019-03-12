@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<hmtl>
+	<head>
+		<title><img src="logo.jpeg"></title>
+		<!--[if lt IE 9]>
+			<script src=//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]--> 
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<div><img src="logo.gif"></div>
+			<div>This is a site to search Github for interesting projects.</div>
+			<nav>
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+				<li><a href="/about.html">About</a></li>	
+			</ul>
+			</nav>
+		</header>
+		<section id= "main">
+		
+			<p>In this <em>sample site</em>, we'll show a list of <a href="http://github.com"> Github</a> projects and the data about <b>those projects</b>.</p>
+			<form action="http://wilder.azurewebsites.net/echo"   method="POST">
+				<label for="searchPhrase">Search Phrase:</label>
+				<input "text" name="searchPhrase" /><br />
+				<label for="useStars">Use Stars?</label><br />
+				<label for="langChoice">Language:</label>
+				<input type="checkbox" name="useStars" checked="true" /> Use Stars?<br />
+				<select name="langChoice">
+					<option>All</option>
+					<option>JavaScript</option>
+					<option selected>C#</option>
+					<option>Java</option>
+					<option>Ruby</option>
+				</select>
+				<br />
+				<input type="submit" value="search" /> 
+				
+				
+			</form>
+	</section>
+	<footer>
+		&copy; Shawn Wildermouth LLC 2014
+		
+	</footer>
+	</body>
+
+
+
+</html>
